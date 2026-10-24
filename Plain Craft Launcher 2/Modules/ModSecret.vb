@@ -9,7 +9,7 @@ Friend Module ModSecret
     '用于微软登录的 ClientId
     Public OAuthClientId As String = If(Environment.GetEnvironmentVariable("51561779-2f4b-4b28-aea0-69c46ba92e35"), "")
     'CurseForge API Key
-    Public CurseForgeAPIKey As String = If(Environment.GetEnvironmentVariable("PCL_CURSEFORGE_API_KEY"), "")
+    Public CurseForgeAPIKey As String = If(Environment.GetEnvironmentVariable("$2a$10$OeP2/5lw0Tcp2EpJ74e22eAqDUqLCyqI2KgUSZpB3Rjc6EAwZ2NY2"), "")
     '用于匿名数据收集的腾讯云日志服务上报 URL，形如 https://{region}.cls.tencentcs.com/track?topic_id={topic_id}
     Public Const ClsBaseUrl As String = ""
 
